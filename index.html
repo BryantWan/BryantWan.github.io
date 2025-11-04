@@ -2,13 +2,115 @@
 
 <html>
     <head>
-        <title>My Web Page</title>
+        <title>Bryant Wan</title>
     </head>
 
     <body>
-        <h1>Welcome to My Web Page</h1>
-        <p>This is a sample paragraph to demonstrate the structure of an HTML document.</p>
-        <p>this is the next page:</p>
-        <a href="newSite.html"> New Site </a>
-    </body>
+        <div class="topnav">
+    <a id ="Main" class="maintab" onclick="MakeMainActive()">Home</a>
+    <a id = "Contact" class="contacttab" onclick="MakeContactActive()">Contact</a>
+    <a id = "Edu" class="Edutab" onclick="MakeEduActive()">Education</a>
+    <a id = "Experience" class="experiencetab" onclick="MakeExperienceActive()">Experience</a>
+  </div>
+
+  <img src="./img/BW.jpg" alt="BW" class="BW">
+
+  <p class="name">Bryant Wan</p>
+
+  <div id="about" class="aboutme">
+    <p class="header">About Me:</p>
+    <p>Hello! I'm Bryant Wan, a college student aspiring to become a web developer and an indie game dev as a side hustle. I have endured and overcame many setbacks in life, but triumphed through all of them through determination, passion, but most important of all, extensive planning. <br> </p>
+    <p> <br>My favorite quote(s): </p>
+    <p class="quote">"If you're going through hell, keep going" -Winston Churchill </p>
+    <p class="quote">"We write our own destiny ...we become what we do." -Chiang Kai-shek</p>
+  </div>
+
+  <div id="contact" class="contactinfo">
+    <p class="header">Contact Info</p>
+    <p>Email: <a href="mailto:bryantwan2003@gmail.com">bryantwan2003@gmail.com</a> </p>
+    <p>Phone: <a href="tel:+16469156437">+1 (646) 915-6437</a></p>
+    <p>Linkedin: <a target="_blank" href="https://www.linkedin.com/in/bryant-wan-885138293/">https://www.linkedin.com/in/bryant-wan</a></p>
+  </div>
+
+
+
+  <div id="edu" class="education">
+    <p class="header">Education:</p>
+      <ul>
+        <li><p class="achieve">High School Diploma, Port Richmond High School, Staten Island, NY, Graduated 2021</p></li>
+          <p class="explain">Graduated Port Richmond High School with a diploma for passing all regents exams</p>
+        <li><p class="achieve">Colleges and Universities of New York (CUNY) College of Staten Island, Staten Island, NY, Expected Graduation on Fall 2026. Current GPA: 2.844</p></li>
+          <p class="explain">Currently pursuing a Bachelor of Science in Computer Science while learning and practicing HTML, CSS, JavaScript, and React for web dev alongside learning Unity and C# for game design.</p>
+        <li><p class="achieve">STEM summer program, Ralph R. McKee Career and Technical Education High School, Staten Island, NY, summer of 2016 and 2017</p></li>
+          <p class="explain">Learned the fundamentals of engineering, programming, and robotics, but most important takeaway, brainstorming ideas, problem-solving, and troubleshooting possible issues.</p>
+      </ul>
+  </div>
+
+  <div id="experience" class="experience">
+    <p class="header">Experience/Skills:</p>
+    <div class="jobcat">
+      <p class="job">Dunkin, Crew Member, January 2021 - Present</p>
+        <ul>
+          <li>Communication: Effectively communicating with coworkers and managers to ensure the store runs smoothly.</li>
+          <li>Customer Service: Ensuring customers are satisfied with their orders and experience at Dunkin.</li>
+        </ul>
+    </div>
+
+    <div class="jobcat">
+      <p class="job">Rudimentary modelling</p>
+        <ul>
+          <li>Creating or drawing ideas to check its practicality and feasibility and how to efficiently implement it</li>
+        </ul>
+    </div>
+
+    <div class="jobcat">
+      <p class="job">Web development</p>
+      <ul>
+        <li>HTML: Creating the structure and content of a website</li>
+        <li>CSS: Giving the website a unique look that seperates it from other websites</li>
+        <li>JavaScript: Adding interactivity and functionality of a website (along with creating fun, whacky things)</li>
+        <li>React: A JavaScript library for building user interfaces, especially single-page applications</li>
+      </ul>
+    </div>
+
+    <div class="jobcat">
+      <p class="job">C++</p>
+        <ul>
+          <li>Functions and Prototypes</li>
+          <li>Loops and Conditionals</li>
+          <li>Pointers and References</li>
+          <li>Classes and Objects</li>
+          <li>Data Structures (Arrays, Vectors, Linked Lists, etc.)</li>
+          <li>Algorithms (Sorting, Searching, etc.)</li>
+        </ul>
+    </div>
+
+    <div class="jobcat">
+        <p class="job">C# and Unity</p>
+        <ul>
+          <li>C#: A programming language used for developing games in Unity</li>
+          <li>Unity: A game engine used for creating 2D and 3D games</li>
+          <li>Game Design: The process of designing the content and rules of a game</li>
+          <li>Game Development: The process of creating a game from start to finish</li>
+        </ul>
+    </div>
+    <div class="jobcat">
+        <p class="job">Storytelling and writing:</p>
+        <ul>
+          <li>Wrote a fanfic based on an isekai anime and alternative history, using creativity to blend the genres together. <a target="_blank" href="https://archiveofourown.org/users/MarshalYueying">Link to it here!</a></li>
+        </ul>
+    </div>
+    <div class="jobcat">
+        <p class="job">Drawing/sketching:</p>
+          <ul>
+            <li>Created some sketches <a target="_blank" href="https://bsky.app/profile/marshalyueying.bsky.social">Link to my BlueSky</a> </li>
+          </ul>
+    </div>
+</div>
+
+
+  <script src="js/app.js"></script>
+
+</body>
+
 </html>
