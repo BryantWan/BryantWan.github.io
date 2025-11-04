@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hello and welcome to my github page!
 
 <!--
 **BryantWan/BryantWan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
