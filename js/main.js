@@ -11,6 +11,8 @@
 
   const experience = document.getElementById('experience')
 
+  const portfolio = document.getElementById('portfolio')
+
   function MakeMainActive() {
   // Toggle the main section
   const isNowActive = !main.classList.contains('active');
@@ -106,6 +108,32 @@ function MakeExperienceActive() {
     experience.classList.toggle('hidden');
   }
 }
+
+function makeportfolioactive() {
+  const isNowActive = !portfolio.classList.contains('active');
+
+    if (isNowActive) {
+    main.classList.remove('hidden');
+    main.classList.add('active');
+
+    experience.classList.remove('active');
+    experience.classList.add('hidden');
+
+    main.classList.remove('active');
+    main.classList.add('hidden');
+
+    contact.classList.remove('active');
+    contact.classList.add('hidden');
+
+    edu.classList.remove('active');
+    edu.classList.add('hidden');
+  } else {
+    // If deactivating experience, just toggle its state
+    experience.classList.toggle('active');
+    experience.classList.toggle('hidden');
+  }
+}
+
 window.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('Main').click();
