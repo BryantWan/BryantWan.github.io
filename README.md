@@ -1,4 +1,5 @@
 ## Hello and welcome to my github page!
+## This is my resume and portfolio of all the webdev projects I've done throughout college and own time
 
 <!--
 **BryantWan/BryantWan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
