@@ -11,7 +11,7 @@
 
   const experience = document.getElementById('experience')
 
-  const portfolio = document.getElementById('portfolio')
+  const portfolio = document.getElementById('portfoliolist')
 
   function MakeMainActive() {
   // Toggle the main section
